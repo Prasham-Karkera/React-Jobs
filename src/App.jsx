@@ -5,7 +5,7 @@ import MainLayout from './layouts/MainLayout';
 
 const Router = createBrowserRouter(
   createRoutesFromElements(
-  <Route index element={<MainLayout />}>
+  <Route path='/' element={<MainLayout />}>
   <Route index element={<HomePage/>}/>
   </Route>
 )
